@@ -25,3 +25,30 @@ li {
 :root {
   --animate-delay: 3s;
 }
+
+body{
+  background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(0, 17, 36, 0.089) 0%, rgba(9, 106, 121, 0.055) 35%, rgba(0,212,255,0.0760679271708683) 100%);
+
+scroll-behavior: smooth;
+
+}
+
+/* scroll bar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #8d8d8d;
+  border-radius: 10px;
+  border: 2px solid #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #979797;
+}
