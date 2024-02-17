@@ -1,0 +1,8 @@
+{
+    "name": "Coinpouch",
+    "description": "Coinpouch is a wallet for cryptocurrencies",
+    "version ": "0.0.1",
+    "url_servers":{
+        "url_catalogs":"http://localhost:3050/catalogs/catalogs"
+    }
+}

@@ -4,6 +4,8 @@ import Signup from '../pages/Signup';
 import { useEffect, useState } from 'react';
 import LoadingBar from 'react-top-loading-bar';
 import Login from '../pages/Login';
+import { GetUserContext } from '../hooks/context/GetUserContext';
+import Admin from '../pages/admin/Admin';
 
 function AppRouter() {
   const [loadingProgress, setLoadingProgress] = useState(0);
@@ -43,15 +45,19 @@ function AppRouter() {
         onLoaderFinished={() => {
           setLoadingProgress(0);
         }}
-      />
+        />
+        <GetUserContext>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/Signup" element={<Signup />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/perfiluser" element={<Admin />} />
+
 
         {/* Handle unknown routes */}
         <Route path="*" element={<div>Pagina no encontrada</div>} />
       </Routes>
+        </GetUserContext>
     </>
   );
 }

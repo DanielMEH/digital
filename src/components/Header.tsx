@@ -7,7 +7,7 @@ import 'animate.css';
 function Header({ title }: HeaderProps) {
   return (
     <>
-    <header className="flex justify-around w-full p-4  shadow-md shadow-gray-100 ">
+    <header className="flex justify-around w-full p-4 sticky top-0 z-50 backdrop-blur-md    ">
       <div className="title">
         <h1 className="list-none text-2xl font-bold text-pink-600">
           <Navlinkcustom to="/" className={"list-none"} children={title} />

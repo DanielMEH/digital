@@ -2,7 +2,7 @@ import {  toast } from "react-toastify";
 
 
 export  const messageWarding = (message:string)=>{
-    return toast.warn(`${message}' `, {
+    return toast.warn(`${message} `, {
      position: "bottom-right",
      autoClose: 4000,
      hideProgressBar: true,
@@ -16,10 +16,10 @@ export  const messageWarding = (message:string)=>{
 
    export const messageSuccess = (message:string)=>{
     return toast.success(`
-     ${message}' 
+     ${message}
    `, {
      position: "bottom-right",
-     autoClose: 4000,
+     autoClose: 1000,
      hideProgressBar: false,
      closeOnClick: true,
      pauseOnHover: true,
@@ -31,7 +31,7 @@ export  const messageWarding = (message:string)=>{
 
     export const messageError = (message:string)=>{
     return toast.error(`
-     ${message}'
+     ${message}
     `, {
         position: "bottom-right",
         autoClose: 4000,
@@ -44,7 +44,7 @@ export  const messageWarding = (message:string)=>{
         });
     }
     export const messageInfo = (message:string)=>{
-    return toast.info(`${message}'`, {
+    return toast.info(`${message}`, {
         position: "bottom-right",
         autoClose: 500,
         hideProgressBar: true,

@@ -1,3 +1,5 @@
+import { SvgCheck } from "../util/icons/ArrowRight";
+
 function Main() {
   return (
     <>
@@ -32,20 +34,7 @@ function Main() {
                     <ul>
                       <li className="flex items-center">
                         <div className=" rounded-full p-2 fill-current text-green-700">
-                          <svg
-                            className="w-6 h-6 align-middle"
-                            width="24"
-                            height="24"
-                            viewBox="0 0 24 24"
-                            fill="none"
-                            stroke="currentColor"
-                            stroke-width="2"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                          >
-                            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
-                            <polyline points="22 4 12 14.01 9 11.01"></polyline>
-                          </svg>
+                          {SvgCheck({})}
                         </div>
                         <span className="text-gray-700 text-lg ml-3">
                           Herramientas esenciales para una gestión financiera
@@ -54,20 +43,7 @@ function Main() {
                       </li>
                       <li className="flex items-center">
                         <div className=" rounded-full p-2 fill-current text-green-700">
-                          <svg
-                            className="w-6 h-6 align-middle"
-                            width="24"
-                            height="24"
-                            viewBox="0 0 24 24"
-                            fill="none"
-                            stroke="currentColor"
-                            stroke-width="2"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                          >
-                            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
-                            <polyline points="22 4 12 14.01 9 11.01"></polyline>
-                          </svg>
+                        {SvgCheck({})}
                         </div>
                         <span className="text-gray-700 text-lg ml-3">
                           Acceso sin costo mensual.
@@ -75,20 +51,7 @@ function Main() {
                       </li>
                       <li className="flex items-center">
                         <div className=" rounded-full p-2 fill-current text-green-700">
-                          <svg
-                            className="w-6 h-6 align-middle"
-                            width="24"
-                            height="24"
-                            viewBox="0 0 24 24"
-                            fill="none"
-                            stroke="currentColor"
-                            stroke-width="2"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                          >
-                            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
-                            <polyline points="22 4 12 14.01 9 11.01"></polyline>
-                          </svg>
+                        {SvgCheck({})}
                         </div>
                         <span className="text-gray-700 text-lg ml-3">
                           Control efectivo de tus finanzas.
@@ -125,20 +88,7 @@ function Main() {
                   <ul>
                     <li className="flex items-center">
                       <div className="rounded-full p-2 fill-current text-green-700">
-                        <svg
-                          className="w-6 h-6 align-middle"
-                          width="24"
-                          height="24"
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          stroke="currentColor"
-                          stroke-width="2"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                        >
-                          <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
-                          <polyline points="22 4 12 14.01 9 11.01"></polyline>
-                        </svg>
+                      {SvgCheck({})}
                       </div>
                       <span className="text-gray-700 text-lg ml-3">
                       Funciones exclusivas para una gestión financiera avanzada.
@@ -146,20 +96,7 @@ function Main() {
                     </li>
                     <li className="flex items-center">
                       <div className=" rounded-full p-2 fill-current text-green-700">
-                        <svg
-                          className="w-6 h-6 align-middle"
-                          width="24"
-                          height="24"
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          stroke="currentColor"
-                          stroke-width="2"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                        >
-                          <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
-                          <polyline points="22 4 12 14.01 9 11.01"></polyline>
-                        </svg>
+                      {SvgCheck({})}
                       </div>
                       <span className="text-gray-700 text-lg ml-3">
                       Soporte prioritario para resolver tus dudas rápidamente.
@@ -167,20 +104,7 @@ function Main() {
                     </li>
                     <li className="flex items-center">
                       <div className=" rounded-full p-2 fill-current text-green-700">
-                        <svg
-                          className="w-6 h-6 align-middle"
-                          width="24"
-                          height="24"
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          stroke="currentColor"
-                          stroke-width="2"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                        >
-                          <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
-                          <polyline points="22 4 12 14.01 9 11.01"></polyline>
-                        </svg>
+                      {SvgCheck({})}
                       </div>
                       <span className="text-gray-700 text-lg ml-3">
                       Análisis detallados para tomar decisiones financieras informadas.
@@ -215,20 +139,7 @@ function Main() {
                     <ul>
                       <li className="flex items-center">
                         <div className=" rounded-full p-2 fill-current text-green-700">
-                          <svg
-                            className="w-6 h-6 align-middle"
-                            width="24"
-                            height="24"
-                            viewBox="0 0 24 24"
-                            fill="none"
-                            stroke="currentColor"
-                            stroke-width="2"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                          >
-                            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
-                            <polyline points="22 4 12 14.01 9 11.01"></polyline>
-                          </svg>
+                        {SvgCheck({})}
                         </div>
                         <span className="text-gray-700 text-lg ml-3">
                         Acceso a características premium para maximizar tus finanzas.
@@ -236,20 +147,7 @@ function Main() {
                       </li>
                       <li className="flex items-center">
                         <div className=" rounded-full p-2 fill-current text-green-700">
-                          <svg
-                            className="w-6 h-6 align-middle"
-                            width="24"
-                            height="24"
-                            viewBox="0 0 24 24"
-                            fill="none"
-                            stroke="currentColor"
-                            stroke-width="2"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                          >
-                            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
-                            <polyline points="22 4 12 14.01 9 11.01"></polyline>
-                          </svg>
+                        {SvgCheck({})}
                         </div>
                         <span className="text-gray-700 text-lg ml-3">
                         Servicios exclusivos diseñados para llevar tu gestión financiera al siguiente nivel.
@@ -257,20 +155,7 @@ function Main() {
                       </li>
                       <li className="flex items-center">
                         <div className=" rounded-full p-2 fill-current text-green-700">
-                          <svg
-                            className="w-6 h-6 align-middle"
-                            width="24"
-                            height="24"
-                            viewBox="0 0 24 24"
-                            fill="none"
-                            stroke="currentColor"
-                            stroke-width="2"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                          >
-                            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
-                            <polyline points="22 4 12 14.01 9 11.01"></polyline>
-                          </svg>
+                        {SvgCheck({})}
                         </div>
                         <span className="text-gray-700 text-lg ml-3">
                         Opciones avanzadas de análisis y herramientas personalizadas.
