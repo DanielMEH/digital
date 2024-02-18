@@ -4,7 +4,7 @@ import { Utils } from "../util/utils";
 
 export const ApiPost = async (urlServer: string, path: string, method: string, action: string, data: unknown) => {
     const config: AxiosRequestConfig = {
-        url: `${urlServer}/${path}`,
+        url: `${urlServer}${path}`,
         method: method,
         headers: { },
         data: data,
