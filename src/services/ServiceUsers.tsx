@@ -15,7 +15,7 @@ class ServiceUsers {
     }
     public async postRegisterUser(email:string, password:string): Promise<AxiosResponse>  {
         console.log(import.meta.env)
-        console.log("URL_CATALOGS", datajson.url_servers.url_catalogs)
+        console.log("URL_CATALOGS Post request", datajson.url_servers.url_catalogs)
         return await ApiPost(datajson.url_servers.url_catalogs, "register", "POST", "", {email, password});
     }
     public async getProfileUser(): Promise<AxiosResponse> {
