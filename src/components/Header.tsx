@@ -30,7 +30,7 @@ function Header({ title }: HeaderProps) {
           <Navlinkcustom
             to="/about"
             className="hover:text-white p-2 rounded-md hover:bg-pink-600 duration-200"
-            children="Acerca de"
+            children="Hola?"
           />
         </nav>
 
