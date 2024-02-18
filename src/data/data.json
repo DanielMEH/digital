@@ -4,5 +4,6 @@
     "version ": "0.0.1",
     "url_servers":{
         "url_catalogs":"http://localhost:3050/catalogs/catalogs"
-    }
+    },
+    "url_client": "https://catalogs-sjen.onrender.com/catalogs/catalogs"
 }

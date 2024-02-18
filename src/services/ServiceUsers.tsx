@@ -5,6 +5,9 @@ import datajson from "../data/data.json";
 
 if (import.meta.env.VITE_URL_CATALOGS){
     datajson.url_servers.url_catalogs = import.meta.env.VITE_URL_CATALOGS;
+}else{
+    datajson.url_servers.url_catalogs = datajson.url_client
+
 }
 
 
