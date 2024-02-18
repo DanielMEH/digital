@@ -3,6 +3,9 @@ import { ApiDelete, ApiPost, ApiPut } from "../api/Api";
 import datajson from "../data/data.json";
 
 
+if (process.env.URL_CATALOGS){
+    datajson.url_servers.url_catalogs = `${process.env.URL_CATALOGS}`
+}
 
  class ServiceUsers {
     public async getLoginUser(email: string, password: string): Promise<AxiosResponse> {
